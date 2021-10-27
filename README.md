@@ -1,4 +1,4 @@
-This is a automated UI Test for Rstudio Cloud.
+This is an automated UI Test for Rstudio Cloud.
 Credentials embedded in scripts. Throwaway account.
 
 
