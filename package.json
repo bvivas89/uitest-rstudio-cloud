@@ -1,0 +1,30 @@
+{
+  "name": "uitest_rstudio_selenium_cucumber",
+  "version": "1.0.0",
+  "description": "Selenium Webdriver automation using Cucumber & Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require-module @babel/register --require steps"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "cucumber",
+    "javascript",
+    "automation"
+  ],
+  "author": "Brian Vivas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@babel/runtime": "^7.15.4",
+    "@cucumber/cucumber": "^7.3.1",
+    "chai": "^4.3.4",
+    "chromedriver": "^94.0.0",
+    "selenium-webdriver": "^4.0.0-rc-2"
+  }
+}
